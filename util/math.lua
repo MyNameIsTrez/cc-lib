@@ -41,7 +41,7 @@ function umath.vecMagSq(vector)
 end
 
 -- Get the distance between two vectors.
-function umath.dist(a, b)
+function umath.vecDist(a, b)
     local dx = b.pos.x - a.pos.x
     local dy = b.pos.y - a.pos.y
     return umath.pythagoras(dx, dy)
